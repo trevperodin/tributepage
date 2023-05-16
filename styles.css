@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: blueviolet;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: yellow;
+}
+
+p {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: yellow;
+}
+
+
+figcaption {
+    text-align: center;
+    display: block;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#img-div {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: yellow;
+}
+
+h3 {
+    text-align: center;
+    margin: 20px auto;
+    color: yellow;
+}
+
+section {
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+strong {
+    color: #ff6767;
+}
+
+ul {
+    display: block;
+}
+
+li {
+    list-style-type: none;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: yellow;
+}
+
+a {
+    color: rgb(255, 95, 95);
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1100px) {
+    #img-div {
+        width: 80%;
+    }
+    section {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #img-div {
+        width: 80%;
+    }
+    section {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #img-div {
+        width: 80%;
+    }
+    section {
+        width: 80%;
+    }
+}
+
+/* REFERENCES GUIDED FROM W3SCHOOLS, GOOGLE AND YOUTUBE*/ 
